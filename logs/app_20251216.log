@@ -1,0 +1,92 @@
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251216.log
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 1 cameras from config
+2025-12-16 12:29:24 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-16 12:29:25 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2025-12-16 12:29:25 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2025-12-16 12:29:25 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2025-12-16 12:29:25 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2025-12-16 12:29:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = dark
+2025-12-16 12:29:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:25 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: dark
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:73] - VideoStreamThread created for camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:114] - Started stream for RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e'}
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:395] - Stream status for RTSP Server (127.0.0.1): Connecting
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [stream_manager.py:157] - Connecting to RTSP Server (127.0.0.1) at rtsp://127.0.0.1:8554/stream
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [grid_widget.py:168] - Assigned camera 'RTSP Server (127.0.0.1)' to cell (0, 0)
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:73] - VideoStreamThread created for camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:114] - Started stream for RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e', '0,1': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e'}
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [grid_widget.py:168] - Assigned camera 'RTSP Server (127.0.0.1)' to cell (0, 1)
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:73] - VideoStreamThread created for camera: RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:395] - Stream status for RTSP Server (127.0.0.1): Connecting
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [video_widget.py:114] - Started stream for RTSP Server (127.0.0.1)
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [stream_manager.py:157] - Connecting to RTSP Server (127.0.0.1) at rtsp://127.0.0.1:8554/stream
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:395] - Stream status for RTSP Server (127.0.0.1): Connecting
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e', '0,1': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e', '1,0': '5e1bd23c-0810-454b-bcd0-fe1f1349ae1e'}
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [stream_manager.py:157] - Connecting to RTSP Server (127.0.0.1) at rtsp://127.0.0.1:8554/stream
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:26 - MediaMTX_VMS - INFO - [grid_widget.py:168] - Assigned camera 'RTSP Server (127.0.0.1)' to cell (1, 0)
+2025-12-16 12:29:26 - MediaMTX_VMS - DEBUG - [resource_tree.py:177] - Resource tree loaded: 1 cameras, 0 NVRs
+2025-12-16 12:29:27 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-16 12:29:27 - MediaMTX_VMS - DEBUG - [resource_monitor.py:48] - Resource monitoring started
+2025-12-16 12:29:27 - MediaMTX_VMS - INFO - [main_window.py:53] - MainWindow initialized
+2025-12-16 12:29:30 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:294] - [HANG_DEBUG] Emitting camera_deleted for 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [main_window.py:362] - [HANG_DEBUG] _on_camera_deleted start for 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e
+2025-12-16 12:29:38 - MediaMTX_VMS - INFO - [video_widget.py:139] - Detaching stream thread for RTSP Server (127.0.0.1)
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [video_widget.py:146] - [HANG_DEBUG] Disconnecting signals for <core.stream_manager.VideoStreamThread object at 0x000002722586A990>
+2025-12-16 12:29:38 - MediaMTX_VMS - INFO - [video_widget.py:139] - Detaching stream thread for RTSP Server (127.0.0.1)
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [video_widget.py:146] - [HANG_DEBUG] Disconnecting signals for <core.stream_manager.VideoStreamThread object at 0x000002722586AC10>
+2025-12-16 12:29:38 - MediaMTX_VMS - INFO - [video_widget.py:139] - Detaching stream thread for RTSP Server (127.0.0.1)
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [video_widget.py:146] - [HANG_DEBUG] Disconnecting signals for <core.stream_manager.VideoStreamThread object at 0x000002722586B110>
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {}
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:38 - MediaMTX_VMS - INFO - [grid_widget.py:221] - Removed camera 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e from 3 cells
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [main_window.py:367] - [HANG_DEBUG] grid_widget removed 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [main_window.py:374] - [HANG_DEBUG] emap_widget removed 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [main_window.py:381] - [HANG_DEBUG] ptz_widget cleared
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] 5e1bd23c-0810-454b-bcd0-fe1f1349ae1e: Camera removed from grid and map
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [main_window.py:386] - [HANG_DEBUG] _on_camera_deleted done
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:296] - [HANG_DEBUG] camera_deleted signal emitted
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:298] - [HANG_DEBUG] Removing from camera_manager
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:38 - MediaMTX_VMS - INFO - [camera_manager.py:124] - Removed camera: RTSP Server (127.0.0.1) (5e1bd23c-0810-454b-bcd0-fe1f1349ae1e)
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:300] - [HANG_DEBUG] Removed from camera_manager
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:177] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-16 12:29:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:303] - [HANG_DEBUG] Tree reloaded
+2025-12-16 12:29:40 - MediaMTX_VMS - DEBUG - [resource_tree.py:177] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-16 12:29:45 - MediaMTX_VMS - INFO - [grid_widget.py:117] - Changing layout from 2x2 to 8x8
+2025-12-16 12:29:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {}
+2025-12-16 12:29:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:45 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 8x8 grid with 64 cells
+2025-12-16 12:29:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.current = 8x8
+2025-12-16 12:29:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:45 - MediaMTX_VMS - INFO - [main_window.py:396] - Layout changed to 8x8
+2025-12-16 12:29:48 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2025-12-16 12:29:48 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:48 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2025-12-16 12:29:52 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Light
+2025-12-16 12:29:52 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:52 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Light
+2025-12-16 12:29:55 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2025-12-16 12:29:55 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-16 12:29:55 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2025-12-16 12:29:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:229] - Stream thread stopping, skipping reconnection for RTSP Server (127.0.0.1)
+2025-12-16 12:29:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:395] - Stream status for RTSP Server (127.0.0.1): Disconnected
+2025-12-16 12:29:58 - MediaMTX_VMS - INFO - [stream_manager.py:133] - VideoStreamThread stopped for RTSP Server (127.0.0.1)
+2025-12-16 12:29:58 - MediaMTX_VMS - DEBUG - [video_widget.py:68] - Zombie thread cleaned up
+2025-12-16 12:30:00 - MediaMTX_VMS - INFO - [grid_widget.py:247] - Stopping all streams
+2025-12-16 12:30:00 - MediaMTX_VMS - INFO - [main_window.py:61] - Application closing
+2025-12-16 12:30:00 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2025-12-16 12:30:00 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================

@@ -1,0 +1,1167 @@
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 1 cameras from config
+2025-12-10 15:35:24 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:35:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:35:25 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 15:35:26 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 1 cameras, 0 NVRs
+2025-12-10 15:35:26 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 15:35:26 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 15:35:29 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 15:35:30 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 15:35:30 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:35:30 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 15:35:32 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:35:32 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 15:35:34 - MediaMTX_VMS - INFO - [main_window.py:369] - Application closing
+2025-12-10 15:35:34 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-10 15:35:34 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 1 cameras from config
+2025-12-10 15:48:46 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 15:48:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 15:48:47 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:48:48 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 1 cameras, 0 NVRs
+2025-12-10 15:48:48 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 15:48:48 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 15:48:50 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 15:48:56 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 15:48:57 - MediaMTX_VMS - INFO - [discovery.py:178] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 15:49:00 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 15:49:00 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 15:49:03 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 0 servers.
+2025-12-10 15:49:26 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:49:26 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 15:49:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-10 15:49:31 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:49:31 - MediaMTX_VMS - INFO - [camera_manager.py:71] - Added camera: Dahua (b348c896-0e69-4198-996a-43b3f5925a8b)
+2025-12-10 15:49:31 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:49:36 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:49:38 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:49:38 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:49:38 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:49:38 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:49:38 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:49:38 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 15:49:38 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] Dahua: Camera 'Dahua' assigned to cell (1,0)
+2025-12-10 15:49:38 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Connecting
+2025-12-10 15:49:38 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:49:56 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:49:56 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 15:49:56 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-10 15:50:01 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:50:18 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 15:50:18 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 1)
+2025-12-10 15:50:18 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Reconnecting
+2025-12-10 15:50:23 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:50:26 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:50:26 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 2)
+2025-12-10 15:50:36 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:50:48 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 15:50:48 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 2)
+2025-12-10 15:50:50 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:50:50 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 2)
+2025-12-10 15:50:58 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:51:00 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 15:55:44 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:55:45 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 15:55:45 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 15:55:48 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 15:56:08 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:56:09 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 15:56:09 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 15:56:12 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 15:56:14 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:56:14 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:56:14 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:56:14 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 15:56:14 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:56:14 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:56:14 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:56:14 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 15:56:14 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] Dahua: Camera 'Dahua' assigned to cell (1,1)
+2025-12-10 15:56:24 - MediaMTX_VMS - INFO - [discovery.py:88] - Sending ONVIF WS-Discovery probe...
+2025-12-10 15:56:24 - MediaMTX_VMS - INFO - [discovery.py:179] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 15:56:27 - MediaMTX_VMS - INFO - [discovery.py:112] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 15:56:27 - MediaMTX_VMS - INFO - [discovery.py:253] - Scanning subnet 172.18.0.0/24...
+2025-12-10 15:56:27 - MediaMTX_VMS - INFO - [discovery.py:260] - Scanning for MediaMTX servers (256 hosts)...
+2025-12-10 15:56:33 - MediaMTX_VMS - INFO - [discovery.py:273] - MediaMTX discovery complete. Found 0 servers.
+2025-12-10 15:56:33 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:56:34 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 15:56:34 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:56:34 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 15:56:36 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:56:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 15:56:38 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 15:56:38 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 15:56:39 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:56:39 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Disconnected
+2025-12-10 15:56:39 - MediaMTX_VMS - INFO - [stream_manager.py:134] - VideoStreamThread stopped for dakdsa
+2025-12-10 15:56:40 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 15:56:40 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 15:56:42 - MediaMTX_VMS - INFO - [main_window.py:369] - Application closing
+2025-12-10 15:56:42 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-10 15:56:42 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 15:59:17 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:59:19 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 15:59:19 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 15:59:21 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 15:59:46 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 15:59:49 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 15:59:49 - MediaMTX_VMS - INFO - [stream_manager.py:206] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 15:59:49 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Reconnecting
+2025-12-10 15:59:53 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 15:59:53 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:59:53 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 15:59:54 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Disconnected
+2025-12-10 15:59:54 - MediaMTX_VMS - INFO - [stream_manager.py:134] - VideoStreamThread stopped for dakdsa
+2025-12-10 15:59:54 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 15:59:54 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 15:59:56 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 15:59:56 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 15:59:58 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 15:59:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 16:00:00 - MediaMTX_VMS - INFO - [main_window.py:369] - Application closing
+2025-12-10 16:00:00 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-10 16:00:00 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 16:33:16 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 16:34:39 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:34:40 - MediaMTX_VMS - INFO - [application.py:43] - ================================================================================
+2025-12-10 16:34:40 - MediaMTX_VMS - INFO - [application.py:44] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:34:40 - MediaMTX_VMS - INFO - [application.py:45] - ================================================================================
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [application.py:119] - Core systems initialized
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 16:34:41 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:34:41 - MediaMTX_VMS - INFO - [main_window.py:61] - MainWindow initialized
+2025-12-10 16:34:43 - MediaMTX_VMS - INFO - [application.py:134] - Main window displayed
+2025-12-10 16:34:45 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 16:34:45 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:34:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 16:34:47 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:34:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for dakdsa
+2025-12-10 16:34:49 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:34:49 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 16:34:51 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:34:51 - MediaMTX_VMS - DEBUG - [stream_manager.py:138] - Stopping stream for Dahua
+2025-12-10 16:34:53 - MediaMTX_VMS - INFO - [application.py:80] - Initiating graceful shutdown...
+2025-12-10 16:34:53 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:53 - MediaMTX_VMS - INFO - [application.py:96] - Shutdown complete
+2025-12-10 16:34:53 - MediaMTX_VMS - INFO - [application.py:97] - ================================================================================
+2025-12-10 16:34:53 - MediaMTX_VMS - INFO - [main_window.py:388] - Application closing
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [application.py:43] - ================================================================================
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [application.py:44] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:34:57 - MediaMTX_VMS - INFO - [application.py:45] - ================================================================================
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [application.py:119] - Core systems initialized
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 16:34:58 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:34:58 - MediaMTX_VMS - INFO - [main_window.py:61] - MainWindow initialized
+2025-12-10 16:35:00 - MediaMTX_VMS - INFO - [application.py:134] - Main window displayed
+2025-12-10 16:35:28 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:35:28 - MediaMTX_VMS - INFO - [stream_manager.py:206] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 16:35:28 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Reconnecting
+2025-12-10 16:35:33 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:35:58 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:35:58 - MediaMTX_VMS - INFO - [stream_manager.py:206] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 16:35:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Reconnecting
+2025-12-10 16:36:03 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:36:03 - MediaMTX_VMS - INFO - [stream_manager.py:206] - Reconnecting to Dahua (attempt 1)
+2025-12-10 16:36:03 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Reconnecting
+2025-12-10 16:36:03 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:36:08 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [camera_manager.py:36] - Loading 2 cameras from config
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [application.py:43] - ================================================================================
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [application.py:44] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:37:15 - MediaMTX_VMS - INFO - [application.py:45] - ================================================================================
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [application.py:119] - Core systems initialized
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [grid_widget.py:104] - Created 2x2 grid with 4 cells
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [grid_widget.py:185] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [grid_widget.py:185] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Connecting
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [grid_widget.py:185] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:74] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for Dahua: Connecting
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [grid_widget.py:185] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 16:37:16 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:37:16 - MediaMTX_VMS - INFO - [main_window.py:61] - MainWindow initialized
+2025-12-10 16:37:19 - MediaMTX_VMS - INFO - [application.py:134] - Main window displayed
+2025-12-10 16:37:46 - MediaMTX_VMS - ERROR - [stream_manager.py:161] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:37:46 - MediaMTX_VMS - INFO - [stream_manager.py:206] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 16:37:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:360] - Stream status for dakdsa: Reconnecting
+2025-12-10 16:37:51 - MediaMTX_VMS - INFO - [stream_manager.py:150] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 16:47:44 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Connecting
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Connecting
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 16:47:45 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:47:45 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 16:47:48 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 2 cameras from config
+2025-12-10 16:48:19 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Connecting
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Connecting
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 2 cameras, 0 NVRs
+2025-12-10 16:48:20 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:48:20 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 16:48:23 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 16:48:33 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:48:33 - MediaMTX_VMS - INFO - [discovery.py:178] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 16:48:36 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 16:48:36 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 16:48:38 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at localhost:8554
+2025-12-10 16:48:38 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 1 servers.
+2025-12-10 16:48:46 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:48:46 - MediaMTX_VMS - INFO - [camera_manager.py:71] - Added camera: RTSP Server (localhost) (4609503c-8e17-4cf5-91bf-919edf9a326d)
+2025-12-10 16:48:54 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:48:54 - MediaMTX_VMS - INFO - [discovery.py:178] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 16:48:57 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 16:48:57 - MediaMTX_VMS - INFO - [discovery.py:252] - Scanning subnet 192.168.10.0/24...
+2025-12-10 16:48:57 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (256 hosts)...
+2025-12-10 16:48:58 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 127.0.0.1:8554
+2025-12-10 16:49:26 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:26 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 1)
+2025-12-10 16:49:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Reconnecting
+2025-12-10 16:49:27 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:27 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 1)
+2025-12-10 16:49:27 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for Dahua: Reconnecting
+2025-12-10 16:49:31 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:32 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:32 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:32 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 2)
+2025-12-10 16:49:33 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:33 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 2)
+2025-12-10 16:49:36 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 192.168.10.132:8554
+2025-12-10 16:49:42 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:42 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:42 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 3)
+2025-12-10 16:49:43 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:46 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:49:46 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to Dahua (attempt 3)
+2025-12-10 16:49:51 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:49:51 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 16:49:51 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-10 16:49:56 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:50:02 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 3 cameras from config
+2025-12-10 16:51:45 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:51:46 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:51:46 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:51:47 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 3 cameras, 0 NVRs
+2025-12-10 16:51:47 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:51:47 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 16:51:49 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 16:51:58 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:51:58 - MediaMTX_VMS - INFO - [discovery.py:178] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 16:52:01 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 16:52:01 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 16:52:02 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 127.0.0.1:8554
+2025-12-10 16:52:03 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at localhost:8554
+2025-12-10 16:52:03 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 2 servers.
+2025-12-10 16:52:07 - MediaMTX_VMS - WARNING - [camera_manager.py:62] - Camera with URL rtsp://localhost:8554/stream already exists
+2025-12-10 16:52:13 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:52:13 - MediaMTX_VMS - INFO - [camera_manager.py:71] - Added camera: RTSP Server (127.0.0.1) (481e46cf-f6bd-4f7b-9084-7f657e131a68)
+2025-12-10 16:52:16 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 16:52:24 - MediaMTX_VMS - INFO - [grid_widget.py:115] - Changing layout from 2x2 to 10x10
+2025-12-10 16:52:24 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:52:24 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:52:24 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:52:24 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 16:52:26 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:52:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 16:52:28 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:52:28 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 16:52:30 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:52:30 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 16:52:32 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 10x10 grid with 100 cells
+2025-12-10 16:52:32 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.current = 10x10
+2025-12-10 16:52:32 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:52:32 - MediaMTX_VMS - INFO - [main_window.py:315] - Layout changed to 10x10
+2025-12-10 16:52:47 - MediaMTX_VMS - ERROR - [stream_manager.py:167] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 16:52:47 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Disconnected
+2025-12-10 16:52:47 - MediaMTX_VMS - INFO - [stream_manager.py:130] - VideoStreamThread stopped for Dahua
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 16:53:34 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 16:53:36 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:53:36 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 16:53:38 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 16:53:58 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:54:01 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-10 16:54:01 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 16:54:02 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 127.0.0.1:8554
+2025-12-10 16:54:03 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at localhost:8554
+2025-12-10 16:54:03 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 2 servers.
+2025-12-10 16:54:06 - MediaMTX_VMS - WARNING - [camera_manager.py:62] - Camera with URL rtsp://127.0.0.1:8554/stream already exists
+2025-12-10 16:54:09 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 16:55:31 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 16:55:33 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 16:55:33 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 16:55:36 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 16:56:02 - MediaMTX_VMS - INFO - [onvif_nvr_dialog.py:42] - Probing ONVIF device at 192.168.1.100:80
+2025-12-10 16:56:27 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:56:30 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-10 16:56:30 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 16:56:31 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 127.0.0.1:8554
+2025-12-10 16:56:32 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at localhost:8554
+2025-12-10 16:56:32 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 2 servers.
+2025-12-10 16:56:42 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 16:56:45 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-10 16:56:45 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 16:56:46 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at 127.0.0.1:8554
+2025-12-10 16:56:47 - MediaMTX_VMS - INFO - [discovery.py:341] - Discovered RTSP server at localhost:8554
+2025-12-10 16:56:47 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 2 servers.
+2025-12-10 16:56:56 - MediaMTX_VMS - WARNING - [camera_manager.py:62] - Camera with URL rtsp://127.0.0.1:8554/stream already exists
+2025-12-10 16:56:59 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 16:57:24 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 16:57:24 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:57:24 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 16:57:26 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 16:57:26 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 16:57:28 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:57:28 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 16:57:30 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 16:57:30 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:03:44 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for dakdsa: Connecting
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:366] - Stream status for Dahua: Connecting
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:03:45 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:03:45 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 17:03:46 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:03:46 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:03:46 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:03:48 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 17:03:52 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 17:03:52 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 17:03:52 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 17:03:54 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-10 17:03:54 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-10 17:03:56 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 17:03:56 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 17:03:58 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for Dahua
+2025-12-10 17:03:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for Dahua
+2025-12-10 17:04:01 - MediaMTX_VMS - INFO - [main_window.py:369] - Application closing
+2025-12-10 17:04:01 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-10 17:04:01 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:07:32 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:374] - Stream status for dakdsa: Connecting
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:374] - Stream status for dakdsa: Connecting
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:374] - Stream status for Dahua: Connecting
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [stream_manager.py:374] - Stream status for Dahua: Connecting
+2025-12-10 17:07:33 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:07:33 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:07:34 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:07:34 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:07:37 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 17:07:41 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-10 17:07:42 - MediaMTX_VMS - INFO - [video_widget.py:114] - Signal stop stream for dakdsa
+2025-12-10 17:07:42 - MediaMTX_VMS - INFO - [video_widget.py:114] - Signal stop stream for dakdsa
+2025-12-10 17:07:42 - MediaMTX_VMS - INFO - [video_widget.py:114] - Signal stop stream for Dahua
+2025-12-10 17:07:42 - MediaMTX_VMS - INFO - [video_widget.py:114] - Signal stop stream for Dahua
+2025-12-10 17:07:50 - MediaMTX_VMS - INFO - [main_window.py:369] - Application closing
+2025-12-10 17:07:50 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-10 17:07:50 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:12:09 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Connecting
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Connecting
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Connecting
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for Dahua
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Connecting
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:12:10 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:12:10 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:12:14 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 17:12:25 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] 481e46cf-f6bd-4f7b-9084-7f657e131a68: Camera removed from grid
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:19:42 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 0)
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for Dahua
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7', '1,0': 'b348c896-0e69-4198-996a-43b3f5925a8b', '1,1': 'b348c896-0e69-4198-996a-43b3f5925a8b'}
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'Dahua' to cell (1, 1)
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Connecting
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Connecting
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Connecting
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Connecting
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:19:44 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:19:44 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:19:45 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 17:19:45 - MediaMTX_VMS - INFO - [stream_manager.py:222] - Reconnecting to Dahua (attempt 1)
+2025-12-10 17:19:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Reconnecting
+2025-12-10 17:19:47 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-10 17:19:47 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to Dahua at rtsp://192.168.10.118:554/stream1
+2025-12-10 17:19:51 - MediaMTX_VMS - INFO - [video_widget.py:138] - Detaching stream thread for Dahua
+2025-12-10 17:19:51 - MediaMTX_VMS - INFO - [video_widget.py:138] - Detaching stream thread for Dahua
+2025-12-10 17:19:51 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:19:51 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:19:51 - MediaMTX_VMS - INFO - [grid_widget.py:219] - Removed camera b348c896-0e69-4198-996a-43b3f5925a8b from 2 cells
+2025-12-10 17:19:51 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] b348c896-0e69-4198-996a-43b3f5925a8b: Camera removed from grid
+2025-12-10 17:20:45 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 17:20:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Disconnected
+2025-12-10 17:20:45 - MediaMTX_VMS - INFO - [stream_manager.py:130] - VideoStreamThread stopped for Dahua
+2025-12-10 17:20:45 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.10.118:554/stream1
+2025-12-10 17:20:45 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for Dahua: Disconnected
+2025-12-10 17:20:45 - MediaMTX_VMS - INFO - [stream_manager.py:130] - VideoStreamThread stopped for Dahua
+2025-12-10 17:21:16 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:21:16 - MediaMTX_VMS - INFO - [stream_manager.py:222] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 17:21:16 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Reconnecting
+2025-12-10 17:21:19 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:21:46 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:21:46 - MediaMTX_VMS - INFO - [stream_manager.py:222] - Reconnecting to dakdsa (attempt 1)
+2025-12-10 17:21:46 - MediaMTX_VMS - DEBUG - [stream_manager.py:376] - Stream status for dakdsa: Reconnecting
+2025-12-10 17:21:48 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:22:50 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:22:50 - MediaMTX_VMS - INFO - [stream_manager.py:222] - Reconnecting to dakdsa (attempt 2)
+2025-12-10 17:22:54 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:23:20 - MediaMTX_VMS - ERROR - [stream_manager.py:175] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:23:20 - MediaMTX_VMS - INFO - [stream_manager.py:222] - Reconnecting to dakdsa (attempt 2)
+2025-12-10 17:23:25 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:23:57 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:23:58 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:23:58 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:24:01 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2025-12-10 17:24:07 - MediaMTX_VMS - INFO - [grid_widget.py:245] - Stopping all streams
+2025-12-10 17:24:07 - MediaMTX_VMS - INFO - [video_widget.py:123] - Signal stop stream for dakdsa
+2025-12-10 17:24:07 - MediaMTX_VMS - INFO - [video_widget.py:123] - Signal stop stream for dakdsa
+2025-12-10 17:24:11 - MediaMTX_VMS - INFO - [main_window.py:380] - Application closing
+2025-12-10 17:24:11 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2025-12-10 17:24:11 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:24:15 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:24:17 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:24:17 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:24:20 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2025-12-10 17:24:26 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] b348c896-0e69-4198-996a-43b3f5925a8b: Camera removed from grid
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251210.log
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 4 cameras from config
+2025-12-10 17:26:24 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [video_widget.py:83] - VideoWidget assigned to camera: dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [video_widget.py:113] - Started stream for dakdsa
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [stream_manager.py:383] - Stream status for dakdsa: Connecting
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [stream_manager.py:154] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-10 17:26:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-10 17:26:25 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-10 17:26:26 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:26:26 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-10 17:26:26 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-10 17:26:29 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2025-12-10 17:26:41 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-10 17:26:41 - MediaMTX_VMS - INFO - [discovery.py:178] - Discovered ONVIF device: Dahua at 192.168.10.118:80
+2025-12-10 17:26:44 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 1 devices.
+2025-12-10 17:26:44 - MediaMTX_VMS - INFO - [discovery.py:259] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-10 17:26:47 - MediaMTX_VMS - INFO - [discovery.py:267] - MediaMTX discovery complete. Found 0 servers.
+2025-12-10 17:27:03 - MediaMTX_VMS - WARNING - [camera_manager.py:62] - Camera with URL rtsp://192.168.10.118:554/stream1 already exists
+2025-12-10 17:27:06 - MediaMTX_VMS - DEBUG - [resource_tree.py:130] - Resource tree loaded: 4 cameras, 0 NVRs
+2025-12-10 17:27:09 - MediaMTX_VMS - INFO - [event_log.py:248] - Event log cleared
+2025-12-10 17:27:27 - MediaMTX_VMS - INFO - [grid_widget.py:245] - Stopping all streams
+2025-12-10 17:27:27 - MediaMTX_VMS - INFO - [video_widget.py:123] - Signal stop stream for dakdsa
+2025-12-10 17:27:27 - MediaMTX_VMS - INFO - [video_widget.py:123] - Signal stop stream for dakdsa
+2025-12-10 17:27:31 - MediaMTX_VMS - INFO - [main_window.py:380] - Application closing
+2025-12-10 17:27:31 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2025-12-10 17:27:31 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================

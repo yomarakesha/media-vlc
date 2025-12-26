@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "cameras": [],
+  "nvrs": [],
+  "groups": [
+    "Default",
+    "Indoor",
+    "Outdoor",
+    "Entrance"
+  ],
+  "settings": {
+    "fps_limit": 15,
+    "reconnect_interval": 5,
+    "recording_path": "./recordings",
+    "screenshot_path": "./screenshots",
+    "motion_detection_sensitivity": 30,
+    "theme": "Dark",
+    "default_layout": "2x2",
+    "auto_start_streams": true,
+    "show_overlay": true,
+    "show_timestamp": true
+  },
+  "layout": {
+    "current": "8x8",
+    "grid_assignments": {
+      "2x2": {}
+    }
+  },
+  "emap": {
+    "background_image": "",
+    "camera_positions": {},
+    "cameras": [],
+    "background": "C:/Users/Windows 11 Pro/Pictures/Feedback/{4CA30FA2-3B7A-47FB-9AE4-5242A462EF31}/Capture001.png"
+  }
+}

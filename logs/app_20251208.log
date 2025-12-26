@@ -1,0 +1,241 @@
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 11:14:14 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [grid_widget.py:84] - Created 2x2 grid with 4 cells
+2025-12-08 11:14:15 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 11:14:18 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 11:14:53 - MediaMTX_VMS - INFO - [grid_widget.py:219] - Stopping all streams
+2025-12-08 11:14:54 - MediaMTX_VMS - INFO - [main_window.py:344] - Application closing
+2025-12-08 11:14:54 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 11:14:54 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 11:18:29 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 11:18:30 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 11:18:30 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 11:18:30 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 11:18:30 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 11:18:30 - MediaMTX_VMS - INFO - [grid_widget.py:84] - Created 2x2 grid with 4 cells
+2025-12-08 11:18:31 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 11:18:33 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 11:18:42 - MediaMTX_VMS - INFO - [grid_widget.py:219] - Stopping all streams
+2025-12-08 11:18:42 - MediaMTX_VMS - INFO - [main_window.py:344] - Application closing
+2025-12-08 11:18:43 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 11:18:43 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 11:24:16 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [grid_widget.py:84] - Created 2x2 grid with 4 cells
+2025-12-08 11:24:18 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 11:24:18 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-08 11:24:18 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 11:24:21 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 11:24:31 - MediaMTX_VMS - INFO - [grid_widget.py:114] - Changing layout from 2x2 to 10x10
+2025-12-08 11:24:31 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {}
+2025-12-08 11:24:31 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 11:24:32 - MediaMTX_VMS - INFO - [grid_widget.py:84] - Created 10x10 grid with 100 cells
+2025-12-08 11:24:32 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.current = 10x10
+2025-12-08 11:24:32 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 11:24:32 - MediaMTX_VMS - INFO - [main_window.py:311] - Layout changed to 10x10
+2025-12-08 11:24:42 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-08 11:24:45 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-08 11:24:45 - MediaMTX_VMS - INFO - [discovery.py:224] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-08 11:24:49 - MediaMTX_VMS - INFO - [discovery.py:232] - MediaMTX discovery complete. Found 0 servers.
+2025-12-08 11:24:57 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 11:25:04 - MediaMTX_VMS - INFO - [grid_widget.py:219] - Stopping all streams
+2025-12-08 11:25:04 - MediaMTX_VMS - INFO - [main_window.py:365] - Application closing
+2025-12-08 11:25:04 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 11:25:04 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 11:29:08 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 11:29:09 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 11:29:09 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 11:29:09 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 11:29:09 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 11:29:09 - MediaMTX_VMS - INFO - [grid_widget.py:84] - Created 2x2 grid with 4 cells
+2025-12-08 11:29:09 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 11:29:10 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-08 11:29:10 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 11:29:12 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 11:29:17 - MediaMTX_VMS - INFO - [grid_widget.py:219] - Stopping all streams
+2025-12-08 11:29:17 - MediaMTX_VMS - INFO - [main_window.py:372] - Application closing
+2025-12-08 11:29:17 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 11:29:17 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 12:55:33 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-08 12:55:35 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 12:55:35 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-08 12:55:35 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 12:55:37 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 12:55:49 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 12:55:50 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 12:55:50 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 12:55:50 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 12:55:50 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 12:55:50 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-08 12:55:50 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 12:55:50 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-08 12:55:51 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 12:55:53 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 12:56:38 - MediaMTX_VMS - INFO - [main_window.py:318] - Layout changed to 2x2
+2025-12-08 12:56:39 - MediaMTX_VMS - INFO - [grid_widget.py:115] - Changing layout from 2x2 to 1x1
+2025-12-08 12:56:39 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {}
+2025-12-08 12:56:39 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 12:56:39 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 1x1 grid with 1 cells
+2025-12-08 12:56:39 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.current = 1x1
+2025-12-08 12:56:39 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 12:56:39 - MediaMTX_VMS - INFO - [main_window.py:318] - Layout changed to 1x1
+2025-12-08 12:59:52 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-08 12:59:52 - MediaMTX_VMS - INFO - [main_window.py:372] - Application closing
+2025-12-08 12:59:52 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 12:59:52 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20251208.log
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2025-12-08 16:16:52 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [main.py:84] - ================================================================================
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [main.py:85] - MediaMTX VMS Client v2.0 - Starting
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [main.py:86] - ================================================================================
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [main.py:38] - Stylesheet loaded successfully
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2025-12-08 16:16:54 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 16:16:54 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2025-12-08 16:16:54 - MediaMTX_VMS - INFO - [main_window.py:56] - MainWindow initialized
+2025-12-08 16:16:57 - MediaMTX_VMS - INFO - [main.py:98] - Main window displayed
+2025-12-08 16:21:56 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-08 16:21:59 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-08 16:21:59 - MediaMTX_VMS - INFO - [discovery.py:224] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-08 16:22:04 - MediaMTX_VMS - INFO - [discovery.py:232] - MediaMTX discovery complete. Found 0 servers.
+2025-12-08 16:22:19 - MediaMTX_VMS - INFO - [discovery.py:224] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-08 16:22:24 - MediaMTX_VMS - INFO - [discovery.py:232] - MediaMTX discovery complete. Found 0 servers.
+2025-12-08 16:22:28 - MediaMTX_VMS - INFO - [discovery.py:87] - Sending ONVIF WS-Discovery probe...
+2025-12-08 16:22:31 - MediaMTX_VMS - INFO - [discovery.py:111] - ONVIF discovery complete. Found 0 devices.
+2025-12-08 16:22:31 - MediaMTX_VMS - INFO - [discovery.py:224] - Scanning for MediaMTX servers (2 hosts)...
+2025-12-08 16:22:36 - MediaMTX_VMS - INFO - [discovery.py:232] - MediaMTX discovery complete. Found 0 servers.
+2025-12-08 16:22:41 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 0 cameras, 0 NVRs
+2025-12-08 16:24:10 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 16:24:10 - MediaMTX_VMS - INFO - [camera_manager.py:71] - Added camera: dakdsa (62738212-6a88-4302-9f18-c0859dea54e7)
+2025-12-08 16:24:10 - MediaMTX_VMS - INFO - [main_window.py:270] - Camera added: dakdsa
+2025-12-08 16:24:10 - MediaMTX_VMS - DEBUG - [resource_tree.py:129] - Resource tree loaded: 1 cameras, 0 NVRs
+2025-12-08 16:24:10 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Camera 'dakdsa' added
+2025-12-08 16:24:13 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-08 16:24:13 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-08 16:24:13 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-08 16:24:13 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-08 16:24:13 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-08 16:24:13 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 16:24:13 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:24:13 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 0)
+2025-12-08 16:24:13 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] dakdsa: Camera 'dakdsa' assigned to cell (0,0)
+2025-12-08 16:24:14 - MediaMTX_VMS - INFO - [video_widget.py:74] - VideoWidget assigned to camera: dakdsa
+2025-12-08 16:24:14 - MediaMTX_VMS - DEBUG - [stream_manager.py:70] - VideoStreamThread created for camera: dakdsa
+2025-12-08 16:24:14 - MediaMTX_VMS - INFO - [video_widget.py:104] - Started stream for dakdsa
+2025-12-08 16:24:14 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: layout.grid_assignments.2x2 = {'0,0': '62738212-6a88-4302-9f18-c0859dea54e7', '0,1': '62738212-6a88-4302-9f18-c0859dea54e7'}
+2025-12-08 16:24:14 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connecting
+2025-12-08 16:24:14 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:24:14 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2025-12-08 16:24:14 - MediaMTX_VMS - INFO - [grid_widget.py:166] - Assigned camera 'dakdsa' to cell (0, 1)
+2025-12-08 16:24:14 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] dakdsa: Camera 'dakdsa' assigned to cell (0,1)
+2025-12-08 16:24:43 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:24:43 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-08 16:24:43 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-08 16:24:49 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:25:53 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:25:53 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-08 16:25:53 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-08 16:25:54 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:25:54 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 2)
+2025-12-08 16:25:58 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:26:01 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connected
+2025-12-08 16:26:01 - MediaMTX_VMS - INFO - [stream_manager.py:170] - Successfully connected to dakdsa
+2025-12-08 16:26:04 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:26:04 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Connected
+2025-12-08 16:26:04 - MediaMTX_VMS - INFO - [stream_manager.py:170] - Successfully connected to dakdsa
+2025-12-08 16:26:17 - MediaMTX_VMS - WARNING - [stream_manager.py:100] - Failed to read frame from dakdsa
+2025-12-08 16:26:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Error
+2025-12-08 16:26:17 - MediaMTX_VMS - WARNING - [stream_manager.py:114] - Stream lost for dakdsa
+2025-12-08 16:26:17 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-08 16:26:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-08 16:26:17 - MediaMTX_VMS - WARNING - [stream_manager.py:100] - Failed to read frame from dakdsa
+2025-12-08 16:26:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Error
+2025-12-08 16:26:17 - MediaMTX_VMS - WARNING - [stream_manager.py:114] - Stream lost for dakdsa
+2025-12-08 16:26:17 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 1)
+2025-12-08 16:26:17 - MediaMTX_VMS - DEBUG - [stream_manager.py:355] - Stream status for dakdsa: Reconnecting
+2025-12-08 16:26:22 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:26:23 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:29:08 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:29:08 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 2)
+2025-12-08 16:29:18 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:29:18 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 2)
+2025-12-08 16:29:18 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:29:28 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:30:49 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:30:49 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 3)
+2025-12-08 16:31:10 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:31:19 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:31:19 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 3)
+2025-12-08 16:31:40 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:32:41 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:32:41 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 4)
+2025-12-08 16:33:11 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:33:11 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 4)
+2025-12-08 16:33:11 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:33:42 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:34:43 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:34:43 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 5)
+2025-12-08 16:35:13 - MediaMTX_VMS - ERROR - [stream_manager.py:156] - Failed to open stream: rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:35:13 - MediaMTX_VMS - INFO - [stream_manager.py:201] - Reconnecting to dakdsa (attempt 5)
+2025-12-08 16:35:13 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:35:43 - MediaMTX_VMS - INFO - [stream_manager.py:146] - Connecting to dakdsa at rtsp://192.168.1.109:8554/nvr1_camera1
+2025-12-08 16:36:35 - MediaMTX_VMS - INFO - [grid_widget.py:220] - Stopping all streams
+2025-12-08 16:36:35 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-08 16:36:35 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-08 16:36:37 - MediaMTX_VMS - INFO - [video_widget.py:109] - Stopping stream for dakdsa
+2025-12-08 16:36:37 - MediaMTX_VMS - DEBUG - [stream_manager.py:134] - Stopping stream for dakdsa
+2025-12-08 16:36:39 - MediaMTX_VMS - INFO - [main_window.py:372] - Application closing
+2025-12-08 16:36:39 - MediaMTX_VMS - INFO - [main.py:106] - Application exiting with code: 0
+2025-12-08 16:36:39 - MediaMTX_VMS - INFO - [main.py:107] - ================================================================================
