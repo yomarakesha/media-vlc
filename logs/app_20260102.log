@@ -1,0 +1,8 @@
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260102.log
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-01-02 09:29:33 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2026-01-02 09:29:33 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config

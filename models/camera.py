@@ -19,13 +19,17 @@ class Camera:
     name: str = "Camera"
     
     # Connection
-    url: str = ""  # RTSP or HLS URL
+    url: str = ""  # RTSP or HLS URL (Main/High quality stream)
+    sub_stream_url: str = ""  # Optional sub-stream URL (Low quality/bandwidth)
     username: str = ""
     password: str = ""
     
     # Type and grouping
     type: str = "RTSP"  # RTSP or HLS
     group: str = "Default"
+    
+    # Stream quality preference
+    stream_quality: str = "auto"  # auto, high, low
     
     # Features
     motion_detection: bool = False
@@ -56,6 +60,42 @@ class Camera:
             return f"{self.name} ({self.location})"
         return self.name
     
+    def get_stream_url(self, quality: str = "auto", widget_size: Optional[tuple] = None) -> str:
+        """
+        Get appropriate stream URL based on quality preference.
+        
+        Args:
+            quality: Stream quality preference ("auto", "high", "low")
+            widget_size: Optional (width, height) tuple for auto-detection
+            
+        Returns:
+            Stream URL (main or sub-stream)
+        """
+        # Explicit quality preference
+        if quality == "high":
+            return self.url
+        elif quality == "low" and self.sub_stream_url:
+            return self.sub_stream_url
+        
+        # Auto-detect based on widget size
+        if quality == "auto" and widget_size and self.sub_stream_url:
+            width, height = widget_size
+            # Use sub-stream for small widgets (< 300px)
+            if width < 300 or height < 300:
+                return self.sub_stream_url
+        
+        # Default to main stream
+        return self.url
+    
+    def has_sub_stream(self) -> bool:
+        """
+        Check if camera has a configured sub-stream.
+        
+        Returns:
+            True if sub-stream URL is configured
+        """
+        return bool(self.sub_stream_url)
+    
     def validate(self) -> tuple[bool, str]:
         """
         Validate camera configuration.
@@ -78,6 +118,17 @@ class Camera:
         
         if self.type == "HLS" and not self.url.startswith("http"):
             return False, "HLS URL must start with http:// or https://"
+        
+        # Validate sub-stream URL if provided
+        if self.sub_stream_url:
+            if self.type == "RTSP" and not self.sub_stream_url.startswith("rtsp://"):
+                return False, "Sub-stream RTSP URL must start with rtsp://"
+            if self.type == "HLS" and not self.sub_stream_url.startswith("http"):
+                return False, "Sub-stream HLS URL must start with http:// or https://"
+        
+        # Validate stream quality
+        if self.stream_quality not in ["auto", "high", "low"]:
+            return False, "Stream quality must be 'auto', 'high', or 'low'"
         
         return True, ""
     

@@ -183,13 +183,6 @@ class PTZWidget(QWidget):
             self.set_enabled(False)
             self._status_label.setText(f"PTZ unavailable for {name}")
 
-    # I need to wire the above signal. 
-    # Python limitation: dynamic signal creation on instance is tricky.
-    # So I'll define it at class level if I could edit class def. 
-    # But I am replacing the whole file, so I CAN define it in class!
-    # See class definition above. Wait, I missed adding it to class body in the replacement string above?
-    # I did not include it in the methods above. I will rewrite the replacement content slightly to include it.
-
     def _on_speed_changed(self, value: int) -> None:
         self._current_speed = value / 10.0
     

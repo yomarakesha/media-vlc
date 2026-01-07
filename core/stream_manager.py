@@ -1,6 +1,6 @@
 """
 MediaMTX VMS Client v2.0 - Video Stream Manager
-QThread-based video streaming with OpenCV, motion detection, and recording.
+Handles video streaming, motion detection, and recording.
 """
 
 import cv2
@@ -14,6 +14,7 @@ from PyQt6.QtGui import QImage
 
 from models.stream import StreamStatus
 from models.camera import Camera
+from core.motion_detector import MotionDetector
 from utils.logger import logger
 
 
@@ -52,17 +53,19 @@ class VideoStreamThread(QThread):
         self._cap: Optional[cv2.VideoCapture] = None
         self._status = StreamStatus.DISCONNECTED
         
-        # Motion detection
-        self._prev_frame = None
-        self._motion_threshold = 25  # Configurable
-        self._motion_detected = False
+        # Motion detection (MOG2-based)
+        self._motion_detector = MotionDetector(
+            sensitivity=30,
+            min_area=500
+        )
+        self._last_motion_time: Optional[float] = None
+        self._motion_cooldown = 5.0  # Seconds to continue recording after motion stops
+        self._motion_regions = []  # Current motion bounding boxes
         
         # Recording
         self._recording = False
+        self._recording_start_time: Optional[float] = None
         self._video_writer: Optional[cv2.VideoWriter] = None
-        self._recording_start_time = None
-        self._motion_cooldown = 5  # Seconds to keep recording after motion stops
-        self._last_motion_time = None
         
         # Reconnection
         self._reconnect_interval = 2  # Seconds (reduced for faster polling)
@@ -285,43 +288,21 @@ class VideoStreamThread(QThread):
     
     def _detect_motion(self, frame: np.ndarray) -> bool:
         """
-        Detect motion using frame differencing.
+        Detect motion using MOG2 background subtraction.
         
         Args:
-            frame: Current frame
+            frame: Current frame (BGR)
             
         Returns:
             True if motion detected, False otherwise
         """
-        # Convert to grayscale
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        gray = cv2.GaussianBlur(gray, (21, 21), 0)
+        # Use MOG2 detector
+        motion_detected, regions = self._motion_detector.detect(frame)
         
-        # First frame
-        if self._prev_frame is None:
-            self._prev_frame = gray
-            return False
+        # Store regions for visualization
+        self._motion_regions = regions
         
-        # Compute difference
-        frame_delta = cv2.absdiff(self._prev_frame, gray)
-        thresh = cv2.threshold(frame_delta, self._motion_threshold, 255, cv2.THRESH_BINARY)[1]
-        
-        # Dilate threshold image
-        thresh = cv2.dilate(thresh, None, iterations=2)
-        
-        # Find contours
-        contours, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        
-        # Update previous frame
-        self._prev_frame = gray
-        
-        # Check if any significant contours found
-        min_area = 500  # Minimum contour area
-        for contour in contours:
-            if cv2.contourArea(contour) > min_area:
-                return True
-        
-        return False
+        return motion_detected
     
     def _start_recording(self, frame: np.ndarray) -> None:
         """
@@ -413,15 +394,45 @@ class VideoStreamThread(QThread):
             self.fps_limit = max(1, min(fps, 30))
             self.frame_interval = 1.0 / self.fps_limit
     
-    def set_motion_threshold(self, threshold: int) -> None:
+    def set_motion_sensitivity(self, sensitivity: int) -> None:
         """
-        Set motion detection threshold.
+        Set motion detection sensitivity.
         
         Args:
-            threshold: Sensitivity threshold (0-100)
+            sensitivity: Sensitivity value (10-100, lower = more sensitive)
         """
         with QMutexLocker(self._mutex):
-            self._motion_threshold = threshold
+            self._motion_detector.set_sensitivity(sensitivity)
+    
+    def set_motion_min_area(self, min_area: int) -> None:
+        """
+        Set minimum motion area threshold.
+        
+        Args:
+            min_area: Minimum area in pixels
+        """
+        with QMutexLocker(self._mutex):
+            self._motion_detector.set_min_area(min_area)
+    
+    def set_detection_zones(self, zones: list) -> None:
+        """
+        Set motion detection zones.
+        
+        Args:
+            zones: List of DetectionZone objects
+        """
+        with QMutexLocker(self._mutex):
+            self._motion_detector.set_zones(zones)
+    
+    def get_motion_regions(self) -> list:
+        """
+        Get current motion regions (bounding boxes).
+        
+        Returns:
+            List of (x, y, width, height) tuples
+        """
+        with QMutexLocker(self._mutex):
+            return self._motion_regions.copy()
     
     def _frame_to_qimage(self, frame: np.ndarray) -> Optional[QImage]:
         """

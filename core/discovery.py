@@ -357,9 +357,6 @@ class MediaMTXDiscovery:
         return None
 
 
-        return None
-
-
 def get_onvif_stream_uri(ip: str, port: int, username: str, password: str) -> Optional[str]:
     """
     Connect to ONVIF device and retrieve RTSP stream URI.

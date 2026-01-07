@@ -1,0 +1,108 @@
+2026-01-07 11:27:44 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-01-07 11:27:44 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-01-07 11:27:44 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260107.log
+2026-01-07 11:27:44 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-01-07 11:27:45 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-01-07 11:27:45 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-01-07 11:27:45 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2026-01-07 11:27:45 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2026-01-07 11:27:47 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2026-01-07 11:27:47 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2026-01-07 11:27:47 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2026-01-07 11:27:47 - MediaMTX_VMS - ERROR - [emap_widget.py:223] - Map image not found: C:/Users/Windows 11 Pro/Pictures/Feedback/{4CA30FA2-3B7A-47FB-9AE4-5242A462EF31}/Capture001.png
+2026-01-07 11:27:48 - MediaMTX_VMS - DEBUG - [resource_tree.py:192] - Resource tree loaded: 0 cameras, 0 NVRs
+2026-01-07 11:27:48 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2026-01-07 11:27:48 - MediaMTX_VMS - DEBUG - [resource_monitor.py:48] - Resource monitoring started
+2026-01-07 11:27:48 - MediaMTX_VMS - INFO - [main_window.py:54] - MainWindow initialized
+2026-01-07 11:27:51 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2026-01-07 11:28:00 - MediaMTX_VMS - INFO - [grid_widget.py:247] - Stopping all streams
+2026-01-07 11:28:00 - MediaMTX_VMS - INFO - [main_window.py:62] - Application closing
+2026-01-07 11:28:01 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2026-01-07 11:28:01 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260107.log
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-01-07 11:41:26 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2026-01-07 11:41:26 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2026-01-07 11:41:28 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2026-01-07 11:41:28 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2026-01-07 11:41:28 - MediaMTX_VMS - ERROR - [emap_widget.py:223] - Map image not found: C:/Users/Windows 11 Pro/Pictures/Feedback/{4CA30FA2-3B7A-47FB-9AE4-5242A462EF31}/Capture001.png
+2026-01-07 11:41:28 - MediaMTX_VMS - DEBUG - [resource_tree.py:192] - Resource tree loaded: 0 cameras, 0 NVRs
+2026-01-07 11:41:28 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2026-01-07 11:41:28 - MediaMTX_VMS - DEBUG - [resource_monitor.py:48] - Resource monitoring started
+2026-01-07 11:41:28 - MediaMTX_VMS - INFO - [main_window.py:54] - MainWindow initialized
+2026-01-07 11:41:31 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2026-01-07 11:41:35 - MediaMTX_VMS - INFO - [grid_widget.py:247] - Stopping all streams
+2026-01-07 11:41:35 - MediaMTX_VMS - INFO - [main_window.py:62] - Application closing
+2026-01-07 11:41:36 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2026-01-07 11:41:36 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260107.log
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-01-07 14:43:36 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2026-01-07 14:43:36 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [main.py:96] - ================================================================================
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [main.py:97] - MediaMTX VMS Client v2.0 - Starting
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [main.py:98] - ================================================================================
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2026-01-07 14:43:38 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2026-01-07 14:43:38 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2026-01-07 14:43:38 - MediaMTX_VMS - ERROR - [emap_widget.py:223] - Map image not found: C:/Users/Windows 11 Pro/Pictures/Feedback/{4CA30FA2-3B7A-47FB-9AE4-5242A462EF31}/Capture001.png
+2026-01-07 14:43:38 - MediaMTX_VMS - DEBUG - [resource_tree.py:192] - Resource tree loaded: 0 cameras, 0 NVRs
+2026-01-07 14:43:38 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2026-01-07 14:43:38 - MediaMTX_VMS - DEBUG - [resource_monitor.py:48] - Resource monitoring started
+2026-01-07 14:43:38 - MediaMTX_VMS - INFO - [main_window.py:54] - MainWindow initialized
+2026-01-07 14:43:41 - MediaMTX_VMS - INFO - [main.py:110] - Main window displayed
+2026-01-07 14:43:46 - MediaMTX_VMS - DEBUG - [resource_tree.py:192] - Resource tree loaded: 0 cameras, 0 NVRs
+2026-01-07 14:44:04 - MediaMTX_VMS - INFO - [grid_widget.py:247] - Stopping all streams
+2026-01-07 14:44:04 - MediaMTX_VMS - INFO - [main_window.py:62] - Application closing
+2026-01-07 14:44:04 - MediaMTX_VMS - INFO - [main.py:118] - Application exiting with code: 0
+2026-01-07 14:44:04 - MediaMTX_VMS - INFO - [main.py:119] - ================================================================================
+2026-01-07 14:47:45 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-01-07 14:47:45 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-01-07 14:47:45 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260107.log
+2026-01-07 14:47:45 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-01-07 14:47:45 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-01-07 14:47:46 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 0 cameras from config
+2026-01-07 14:47:46 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:174] - Motion detected: 1 region(s)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=100)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:174] - Motion detected: 1 region(s)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:174] - Motion detected: 1 region(s)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=5000)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:174] - Motion detected: 1 region(s)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:236] - Added detection zone: Zone 1
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:236] - Added detection zone: Zone 2
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:250] - Removed detection zone: Zone 1
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:257] - Cleared all detection zones
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - INFO - [motion_detector.py:273] - Motion sensitivity updated to 50
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - INFO - [motion_detector.py:309] - Motion detector reset
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:236] - Added detection zone: Test
+2026-01-07 14:47:46 - MediaMTX_VMS - DEBUG - [motion_detector.py:116] - MotionDetector initialized (sensitivity=30, min_area=500)

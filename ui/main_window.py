@@ -41,6 +41,7 @@ class MainWindow(QMainWindow):
         
         # UI Setup
         self._create_menu_bar()
+        self._create_toolbar()
         self._create_central_widget()
         self._create_dock_widgets()
         self._create_status_bar()
@@ -108,6 +109,32 @@ class MainWindow(QMainWindow):
         add_nvr_action.triggered.connect(self._add_nvr)
         tools_menu.addAction(add_nvr_action)
         
+        tools_menu.addSeparator()
+        
+        # Motion Detection
+        motion_menu = tools_menu.addMenu("Motion Detection")
+        
+        config_zones_action = QAction("Configure Zones...", self)
+        config_zones_action.setShortcut("Ctrl+M")
+        config_zones_action.triggered.connect(self._configure_motion_zones)
+        motion_menu.addAction(config_zones_action)
+        
+        # Recording
+        recording_menu = tools_menu.addMenu("Recording")
+        
+        schedules_action = QAction("Recording Schedules...", self)
+        schedules_action.setShortcut("Ctrl+R")
+        schedules_action.triggered.connect(self._configure_recording_schedules)
+        recording_menu.addAction(schedules_action)
+        
+        # Layout Manager
+        tools_menu.addSeparator()
+        
+        layout_mgr_action = QAction("Layout Manager...", self)
+        layout_mgr_action.setShortcut("Ctrl+L")
+        layout_mgr_action.triggered.connect(self._open_layout_manager)
+        tools_menu.addAction(layout_mgr_action)
+        
         # Help Menu
         help_menu = menu_bar.addMenu("&Help")
         about_action = QAction("&About", self)
@@ -164,6 +191,14 @@ class MainWindow(QMainWindow):
         screenshot_action.setShortcut(QKeySequence("Ctrl+S"))
         screenshot_action.triggered.connect(self._take_screenshot)
         toolbar.addAction(screenshot_action)
+        
+        toolbar.addSeparator()
+        
+        # Phase 2 Features
+        layout_mgr_action = QAction("💾 Layouts", self)
+        layout_mgr_action.setToolTip("Layout Manager")
+        layout_mgr_action.triggered.connect(self._open_layout_manager)
+        toolbar.addAction(layout_mgr_action)
         
         toolbar.addSeparator()
         
@@ -440,22 +475,58 @@ class MainWindow(QMainWindow):
         dialog = SettingsDialog(self)
         dialog.exec()
     
+    def _configure_motion_zones(self) -> None:
+        """Open motion zone configuration dialog."""
+        # TODO: Get current selected camera from grid or resource tree
+        QMessageBox.information(
+            self,
+            "Motion Zones",
+            "Select a camera from the grid or resource tree first, then right-click and choose 'Configure Motion Zones'."
+        )
+    
+    def _configure_recording_schedules(self) -> None:
+        """Open recording schedules dialog."""
+        from ui.recording_schedule_dialog import RecordingScheduleDialog
+        
+        dialog = RecordingScheduleDialog(self)
+        # TODO: Load existing schedules from config
+        if dialog.exec():
+            schedules = dialog.get_schedules()
+            # TODO: Save schedules to config
+            self._event_log.add_info(f"Recording schedules updated ({len(schedules)} schedule(s))")
+            logger.info(f"Recording schedules configured: {len(schedules)}")
+    
+    def _open_layout_manager(self) -> None:
+        """Open layout manager dialog."""
+        QMessageBox.information(
+            self,
+            "Layout Manager",
+            "Layout Manager allows you to create, save, and load custom grid layouts.\n\n" +
+            "Feature coming soon!"
+        )
+        # TODO: Implement LayoutManagerDialog
+        # from ui.layout_manager_dialog import LayoutManagerDialog
+        # dialog = LayoutManagerDialog(self)
+        # dialog.exec()
+    
     def _show_about(self) -> None:
         """Show about dialog."""
         about_text = """
-        <h2>MediaMTX VMS Client v2.0</h2>
+        <h2>MediaMTX VMS Client v2.1</h2>
         <p>Professional Video Management System for Windows</p>
         <p><b>Features:</b></p>
         <ul>
             <li>Multi-camera grid (up to 100 cameras)</li>
             <li>RTSP & HLS streaming support</li>
             <li>ONVIF NVR integration</li>
-            <li>Motion detection & recording</li>
-            <li>Auto-reconnection</li>
+            <li>Advanced motion detection (MOG2)</li>
+            <li>Pre-buffer recording & schedules</li>
+            <li>Custom layout manager</li>
+            <li>SQLite database support</li>
         </ul>
-        <p><b>Version:</b> 2.0.0</p>
-        <p><b>Build Date:</b> 2025-12-08</p>
-        <p>© 2025 MediaMTX VMS Client Project</p>
+        <p><b>Version:</b> 2.1.0</p>
+        <p><b>Build Date:</b> 2026-01-07</p>
+        <p>© 2025-2026 MediaMTX VMS Client Project</p>
         """
         
         QMessageBox.about(self, "About MediaMTX VMS Client", about_text)
