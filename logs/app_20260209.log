@@ -1,0 +1,26 @@
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [logger.py:62] - ================================================================================
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [logger.py:63] - MediaMTX VMS Client v2.0 - Logger initialized
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [logger.py:64] - Log file: logs\app_20260209.log
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [logger.py:65] - ================================================================================
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [config.py:40] - Configuration loaded from config.json
+2026-02-09 10:54:23 - MediaMTX_VMS - DEBUG - [crypto.py:54] - CryptoManager initialized successfully
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [camera_manager.py:28] - Loading 20 cameras from config
+2026-02-09 10:54:23 - MediaMTX_VMS - INFO - [nvr_manager.py:28] - Loading 0 NVRs from config
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [main.py:159] - ================================================================================
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [main.py:160] - MediaMTX VMS Client v2.0 - Starting
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [main.py:161] - ================================================================================
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [main.py:47] - Stylesheet loaded successfully
+2026-02-09 10:54:25 - MediaMTX_VMS - DEBUG - [config.py:113] - Config set: settings.theme = Dark
+2026-02-09 10:54:25 - MediaMTX_VMS - DEBUG - [config.py:63] - Configuration saved
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [theme_manager.py:227] - Theme set to: Dark
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [grid_widget.py:85] - Created 2x2 grid with 4 cells
+2026-02-09 10:54:25 - MediaMTX_VMS - ERROR - [emap_widget.py:223] - Map image not found: C:/Users/Windows 11 Pro/Pictures/Feedback/{4CA30FA2-3B7A-47FB-9AE4-5242A462EF31}/Capture001.png
+2026-02-09 10:54:25 - MediaMTX_VMS - DEBUG - [resource_tree.py:192] - Resource tree loaded: 20 cameras, 0 NVRs
+2026-02-09 10:54:25 - MediaMTX_VMS - DEBUG - [event_log.py:151] - Event logged: [Info] : Application started
+2026-02-09 10:54:25 - MediaMTX_VMS - DEBUG - [resource_monitor.py:48] - Resource monitoring started
+2026-02-09 10:54:25 - MediaMTX_VMS - INFO - [main_window.py:63] - MainWindow initialized
+2026-02-09 10:54:28 - MediaMTX_VMS - INFO - [main.py:173] - Main window displayed
+2026-02-09 10:55:11 - MediaMTX_VMS - INFO - [grid_widget.py:247] - Stopping all streams
+2026-02-09 10:55:11 - MediaMTX_VMS - INFO - [main_window.py:71] - Application closing
+2026-02-09 10:55:11 - MediaMTX_VMS - INFO - [main.py:181] - Application exiting with code: 0
+2026-02-09 10:55:11 - MediaMTX_VMS - INFO - [main.py:182] - ================================================================================

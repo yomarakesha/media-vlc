@@ -9,11 +9,20 @@ from PyQt6.QtWidgets import (
     QMessageBox, QFileDialog, QComboBox, QPushButton, QLabel
 )
 from PyQt6.QtCore import Qt, QTimer
-from PyQt6.QtGui import QAction, QKeySequence
+from PyQt6.QtGui import QAction, QKeySequence, QIcon
 
 from ui.grid_widget import GridWidget
 from utils.logger import logger
 from utils.config import config
+
+# Icons directory
+ICONS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'assets', 'icons')
+
+
+def get_icon(name: str) -> QIcon:
+    """Get icon from assets/icons folder."""
+    path = os.path.join(ICONS_DIR, f'{name}.svg')
+    return QIcon(path) if os.path.exists(path) else QIcon()
 
 
 class MainWindow(QMainWindow):
@@ -151,20 +160,20 @@ class MainWindow(QMainWindow):
         self.addToolBar(Qt.ToolBarArea.TopToolBarArea, toolbar)
         
         # Add Camera
-        add_camera_action = QAction("📷 Add Camera", self)
+        add_camera_action = QAction(get_icon('camera'), "Add Camera", self)
         add_camera_action.setShortcut(QKeySequence("Ctrl+N"))
         add_camera_action.triggered.connect(self._add_camera)
         toolbar.addAction(add_camera_action)
         
         # Add NVR
-        add_nvr_action = QAction("📹 Add NVR", self)
+        add_nvr_action = QAction(get_icon('video'), "Add NVR", self)
         add_nvr_action.triggered.connect(self._add_nvr)
         toolbar.addAction(add_nvr_action)
         
         toolbar.addSeparator()
         
         # Discover Devices
-        discover_action = QAction("🔍 Search Devices", self)
+        discover_action = QAction(get_icon('search'), "Search Devices", self)
         discover_action.triggered.connect(self._discover_devices)
         toolbar.addAction(discover_action)
         
@@ -176,18 +185,18 @@ class MainWindow(QMainWindow):
         toolbar.addSeparator()
         
         # Start/Stop All
-        start_all_action = QAction("▶ Start All", self)
+        start_all_action = QAction(get_icon('play'), "Start All", self)
         start_all_action.triggered.connect(self._start_all_streams)
         toolbar.addAction(start_all_action)
         
-        stop_all_action = QAction("⏹ Stop All", self)
+        stop_all_action = QAction(get_icon('stop'), "Stop All", self)
         stop_all_action.triggered.connect(self._stop_all_streams)
         toolbar.addAction(stop_all_action)
         
         toolbar.addSeparator()
         
         # Screenshot
-        screenshot_action = QAction("📸 Screenshot", self)
+        screenshot_action = QAction(get_icon('screenshot'), "Screenshot", self)
         screenshot_action.setShortcut(QKeySequence("Ctrl+S"))
         screenshot_action.triggered.connect(self._take_screenshot)
         toolbar.addAction(screenshot_action)
@@ -195,7 +204,7 @@ class MainWindow(QMainWindow):
         toolbar.addSeparator()
         
         # Phase 2 Features
-        layout_mgr_action = QAction("💾 Layouts", self)
+        layout_mgr_action = QAction(get_icon('save'), "Layouts", self)
         layout_mgr_action.setToolTip("Layout Manager")
         layout_mgr_action.triggered.connect(self._open_layout_manager)
         toolbar.addAction(layout_mgr_action)
@@ -203,12 +212,12 @@ class MainWindow(QMainWindow):
         toolbar.addSeparator()
         
         # Settings
-        settings_action = QAction("⚙ Settings", self)
+        settings_action = QAction(get_icon('settings'), "Settings", self)
         settings_action.triggered.connect(self._open_settings)
         toolbar.addAction(settings_action)
         
         # About
-        about_action = QAction("ℹ About", self)
+        about_action = QAction(get_icon('info'), "About", self)
         about_action.triggered.connect(self._show_about)
         toolbar.addAction(about_action)
         
@@ -418,31 +427,26 @@ class MainWindow(QMainWindow):
         Args:
             camera_id: Deleted camera ID
         """
-        logger.debug(f"[HANG_DEBUG] _on_camera_deleted start for {camera_id}")
-        
         # Remove from Grid
         try:
             self._grid_widget.remove_camera_by_id(camera_id)
-            logger.debug(f"[HANG_DEBUG] grid_widget removed {camera_id}")
         except Exception as e:
-            logger.error(f"[HANG_DEBUG] grid_widget removal failed: {e}")
+            logger.error(f"Failed to remove camera from grid: {e}")
 
         # Remove from E-Map
         try:
             self._emap_widget.remove_camera_by_id(camera_id)
-            logger.debug(f"[HANG_DEBUG] emap_widget removed {camera_id}")
         except Exception as e:
-            logger.error(f"[HANG_DEBUG] emap_widget removal failed: {e}")
+            logger.error(f"Failed to remove camera from E-Map: {e}")
         
         # Clear PTZ if needed
         try:
             self._ptz_widget.set_camera(None)
-            logger.debug(f"[HANG_DEBUG] ptz_widget cleared")
         except Exception as e:
-            logger.error(f"[HANG_DEBUG] ptz_widget clear failed: {e}")
+            logger.error(f"Failed to clear PTZ widget: {e}")
         
         self._event_log.add_info("Camera removed from grid and map", camera_id)
-        logger.debug(f"[HANG_DEBUG] _on_camera_deleted done")
+        logger.info(f"Camera {camera_id} removed successfully")
     
     def _change_layout(self, layout_name: str) -> None:
         """

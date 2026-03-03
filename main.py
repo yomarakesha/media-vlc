@@ -47,33 +47,96 @@ def load_stylesheet(app: QApplication) -> None:
                 logger.info("Stylesheet loaded successfully")
         except Exception as e:
             logger.error(f"Failed to load stylesheet: {e}")
+            _apply_fallback_style(app)
     else:
         logger.warning(f"Stylesheet not found: {stylesheet_path}")
+        _apply_fallback_style(app)
+
+
+def _apply_fallback_style(app: QApplication) -> None:
+    """Apply minimal fallback style when QSS file is unavailable."""
+    fallback = """
+    * { font-family: "Segoe UI", Arial; font-size: 9pt; color: #D4D4D4; }
+    QMainWindow, QWidget { background-color: #1E1E1E; }
+    QPushButton { background-color: #2D2D30; border: 1px solid #3E3E42; padding: 6px 12px; }
+    QPushButton:hover { border-color: #007ACC; }
+    """
+    app.setStyleSheet(fallback)
+    logger.info("Fallback stylesheet applied")
 
 
 def create_splash_screen() -> QSplashScreen:
     """
-    Create splash screen.
+    Create professional splash screen with gradient.
     
     Returns:
         QSplashScreen instance
     """
-    # Create a simple colored splash screen
-    # In production, replace with actual logo image
+    from PyQt6.QtGui import QPainter, QLinearGradient, QColor, QBrush, QPen
+    
+    # Create pixmap
     splash_pix = QPixmap(600, 400)
-    splash_pix.fill(Qt.GlobalColor.black)
+    
+    # Draw gradient background
+    painter = QPainter(splash_pix)
+    painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+    
+    # Purple-violet gradient (matching main theme)
+    gradient = QLinearGradient(0, 0, 600, 400)
+    gradient.setColorAt(0.0, QColor("#0d1117"))
+    gradient.setColorAt(0.3, QColor("#161b22"))
+    gradient.setColorAt(0.7, QColor("#1a1f2e"))
+    gradient.setColorAt(1.0, QColor("#0d1117"))
+    painter.fillRect(0, 0, 600, 400, QBrush(gradient))
+    
+    # Draw accent line at top
+    accent_gradient = QLinearGradient(0, 0, 600, 0)
+    accent_gradient.setColorAt(0.0, QColor("#667eea"))
+    accent_gradient.setColorAt(0.5, QColor("#00d4aa"))
+    accent_gradient.setColorAt(1.0, QColor("#764ba2"))
+    painter.fillRect(0, 0, 600, 4, QBrush(accent_gradient))
+    
+    # Draw title
+    title_font = QFont("Segoe UI", 32, QFont.Weight.Bold)
+    painter.setFont(title_font)
+    painter.setPen(QPen(QColor("#ffffff")))
+    painter.drawText(0, 120, 600, 50, Qt.AlignmentFlag.AlignCenter, "MediaMTX VMS")
+    
+    # Draw version
+    version_font = QFont("Segoe UI", 14, QFont.Weight.Normal)
+    painter.setFont(version_font)
+    painter.setPen(QPen(QColor("#00d4aa")))
+    painter.drawText(0, 170, 600, 30, Qt.AlignmentFlag.AlignCenter, "v2.1 Professional")
+    
+    # Draw subtitle
+    subtitle_font = QFont("Segoe UI", 11, QFont.Weight.Normal)
+    painter.setFont(subtitle_font)
+    painter.setPen(QPen(QColor("#8b949e")))
+    painter.drawText(0, 210, 600, 30, Qt.AlignmentFlag.AlignCenter, 
+                     "Video Management System for Windows")
+    
+    # Draw loading bar background
+    painter.fillRect(150, 320, 300, 6, QColor("#21262d"))
+    
+    # Draw loading bar (animated in real app)
+    loading_gradient = QLinearGradient(150, 0, 450, 0)
+    loading_gradient.setColorAt(0.0, QColor("#667eea"))
+    loading_gradient.setColorAt(1.0, QColor("#764ba2"))
+    painter.fillRect(150, 320, 200, 6, QBrush(loading_gradient))
+    
+    # Draw loading text
+    loading_font = QFont("Segoe UI", 9)
+    painter.setFont(loading_font)
+    painter.setPen(QPen(QColor("#8b949e")))
+    painter.drawText(0, 340, 600, 25, Qt.AlignmentFlag.AlignCenter, "Initializing...")
+    
+    # Draw copyright
+    painter.drawText(0, 370, 600, 20, Qt.AlignmentFlag.AlignCenter, 
+                     "© 2024 MediaMTX VMS. All rights reserved.")
+    
+    painter.end()
     
     splash = QSplashScreen(splash_pix, Qt.WindowType.WindowStaysOnTopHint)
-    
-    # Add text
-    font = QFont("Segoe UI", 24, QFont.Weight.Bold)
-    splash.setFont(font)
-    splash.showMessage(
-        "MediaMTX VMS Client v2.0\n\nLoading...",
-        Qt.AlignmentFlag.AlignCenter | Qt.AlignmentFlag.AlignBottom,
-        Qt.GlobalColor.white
-    )
-    
     return splash
 
 
